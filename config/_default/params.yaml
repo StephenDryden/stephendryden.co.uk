@@ -14,7 +14,7 @@ author:
 
 links:
   - github: https://github.com/StephenDryden/stephendryden.co.uk
-  - link: https://github.com/StephenDryden/stephendryden.co.uk#readme
+  #- link: https://github.com/StephenDryden/stephendryden.co.uk#readme
   # - website:
   - x-twitter: https://x.comStephen_Dryden
   # - mastodon:
@@ -65,6 +65,6 @@ links:
 ###############################
 
 title: stephendryden.co.uk
-description: "Site build with Qubt & Hugo"
+#description: "Site build with Qubt & Hugo"
 images:
-  - thumbnail.png
+  - author.png
