@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Page Not Found</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        main {
+            min-height: 60dvh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body><a class="skip-link" href="#main">Skip to main content</a>
+    <main id="main">
+        <div>
+            <h1>404</h1>
+            <p>This page doesn’t exist (anymore).</p>
+            <p><a class="icon-link" href="/">Return home</a></p>
+        </div>
+    </main>
+    <footer class="site-footer"><small>&copy; <span id="year"></span> Stephen Dryden</small></footer>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+
+</html>
